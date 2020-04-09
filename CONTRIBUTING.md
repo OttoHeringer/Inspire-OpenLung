@@ -25,10 +25,10 @@ Preenchendo o formulário conseguimos também nos organizar melhor para falar co
 
 Caso o GitHub não seja exatamente algo estranho para você, existem quatro maneiras de contribuir com esse repositório:
 
-1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](##como-contribuir-com-o-hardware) para maiores detalhes.
-2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](##como-contribuir-com-o-software) para mais detalhes.
+1. **HARDWARE** - baixe os arquivos, monte o protótipo, faça testes e proponha novas melhorias no modelo 3D. Consulte a seção [Como contribuir com o hardware](#como-contribuir-com-o-hardware) para maiores detalhes.
+2. **SOFTWARE** - avalie e proponha melhorias nos códigos do firmware e do software de interface com o usuário. Consulte a seção [Como contribuir com o software](#como-contribuir-com-o-software) para mais detalhes.
 3. **DADOS** - se você tiver acesso a equipamentos de medição de fluxo e/ou pressão de ar, mas principalmente associados a um [pulmão de testes](https://www.google.com/search?q=pulm%C3%A3o+de+teste) (ou qualquer outro equipamento que simule apropriadamente um pulmão), repita os experimentos que realizamos, melhore-os e faça outros novos experimentos que ainda não foram feitos. Consulte a seção [como contribuir com dados](#como-contribuir-com-dados).
-4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções.
+4. **DOCUMENTAÇÃO** - veja quais informações parecem estar faltando, o que poderia estar mais claro ou melhor organizado no repositório. Proponha Issues ou faça Pull-Requests com melhorias e correções. Consulte a seção [Como contribuir com documentação](#como-contribuir-com-documentação).
 
 # Como fazer as contribuições?
 
@@ -51,11 +51,11 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 
 ## Como contribuir com o hardware
 
-  - Contribuir com o hardware significa que você vai modificar e fazer Pull-Requests dos arquivos de modelos 3D e 2D do projeto nas pastas ["2D laser cut"](https://github.com/OInspire-Poli-USP/Inspire-OpenLung/tree/master/2D%20laser%20cut) e/ou ["3D model"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/3D%20model).
+  - Contribuir com o hardware significa que você vai modificar e fazer Pull-Requests dos arquivos de modelos 3D e 2D do projeto nas pastas ["2D laser cut"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/2D%20laser%20cut) e/ou ["3D model"](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/3D%20model).
   - Nossos modelos foram feitos no software de modelagem 3D Fusion, da Autodesk - que é passível de uso gratuito em algumas condições. Preferimos manter o master branch usando os arquivos de modelos 3D do Fusion para evitar problemas de compatibilidade no compartilhamento dos modelos 3D entre as pessoas da comunidade.
     - Contudo caso você consiga modelar apenas em outros softwares, podemos criar branches especificamente para modelos usando outras ferramentas de modelagem 3D (Solidworks, SketchUp, OpenScad, FreeCad etc) de sua preferência.
       - Nesse caso, o merge com o master dependerá da conversão do modelo 3D para o formato do Fusion.
-  - Aceitaremos apenas contribuições que se baseiam em nossos [Princípios de Design](https://github.com/OttoHeringer/Inspire-OpenLung/blob/master/DESIGN_PRINCIPLES.md).
+  - Aceitaremos apenas contribuições que se baseiam em nossos [Princípios de Design](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/blob/master/Principios_e_abordagem.md).
       - Dependendo do caso, podemos excepcionalmente criar branches para designs que fujam ligeiramente dos Princípios de Design
   - Caso seu Pull-Request envolva uma proposta que apesar de seguir os Princípios de Design, julguemos precisar ser validada por fabricação do hardware, ela só será aprovada para merge caso seja construída e acompanhada de Dados documentando as melhorias.
 
@@ -71,7 +71,7 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 ## Como contribuir com dados
 
   - Contribuir com dados significa que você adicionará arquivos de texto, planilhas, imagens e etc na pasta [Dados Experimentais](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/tree/master/Dados_Experimentais)
-  - Contribuir com dados implica em você ter capacidade de ao mesmo tempo poder contribuir com o hardware e o software, tendo ainda acesso a equipamentos para realizar medições, como pressão e vazão, reproduzindo as condições que profissionais de saúde encontrariam numa situação real.
+  - Contribuir com dados implica em você ter capacidade de ao mesmo tempo poder contribuir com o hardware e o software, tendo ainda acesso a equipamentos para realizar medições, como pressão e vazão, reproduzindo as condições que profissionais de saúde encontrariam numa situação real. Veja, por exemplo, o [Sistema de Testes](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki/Sistema-de-Testes) que usamos.
   - Antes de contribuir, veja os dados e informações que já coletamos e organizamos na [Wiki do projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki).
   - Procure nos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues) do projeto entradas sugerindo medições e experimentos que ainda não foram feitos.
   - Para ficar mais rapidamente atualizado sobre o que nós e as pessoas da comunidade estão medindo, experimentando, propondo e discutindo, entre no [grupo de chat do Telegram](https://t.me/openlungpoliusp) ou envie um email para a lista de emails (inspireopenlung@googlegroups.com).
@@ -80,6 +80,9 @@ Caso seja necessário fazer alterações no seu Pull-Request, use o rebase inter
 
   - Contribuir com documentação significa que você alterará arquivos de texto do repositório, adicionará arquivos em diferentes locais do repositório complementando informações (como imagens, pdfs etc) e apontará melhorias necessárias nos [Issues](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/issues).
   - Nós precisamos muito de uma documentação suficientemente detalhada sobre montagem, organização do repositório, etc. Toda ajuda neste sentido será de **extrema** importância para todos.
+  - A [Wiki do projeto](https://github.com/Inspire-Poli-USP/Inspire-OpenLung/wiki) é o principal local de organização de informação técnicas do projeto, bem como informações adicionais relevantes.
+    - Você pode, por exemplo, sugerir quaisquer materiais externos ou internos (artigos, posts, reports, etc.)
+relativos ao projeto, que possam ser úteis para quem quer entender melhor sobre o que está sendo feito. 
 
 # Convenções
 
@@ -108,9 +111,10 @@ exemplo do parágrafo anterior, os dois commits poderiam ter como títulos:
 
 Não utilize mensagens genéricas como "Atualizando o README".
 
-Quanto a formatação das mensagens de commit, seguimos as convenções descritas
-[aqui](http://translate.google.com/translate?js=n&sl=auto&tl=destination_language&u=https://chris.beams.io/posts/git-commit/). Em resumo:
-
+Quanto à formatação das mensagens de commit, seguimos as convenções descritas
+[aqui](https://chris.beams.io/posts/git-commit/) (veja a tradução para
+Português [aqui](https://translate.google.com/translate?sl=en&tl=pt&u=https%3A%2F%2Fchris.beams.io%2Fposts%2Fgit-commit%2F)).
+Em resumo:
 - A primeira linha é o título. Escreva-a resumindo as mudanças, no imperativo,
   e tente mantê-la em até 50 characteres.
 - Use uma linha em branco entre o título e corpo.
